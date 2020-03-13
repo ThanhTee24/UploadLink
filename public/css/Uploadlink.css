@@ -1,0 +1,22 @@
+.table-border{
+	border: 2px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	
+}
+
+.form-control{
+		width: 300px;
+}
+
+h1{
+	text-align: center;
+}
+
+body{
+	background-color: #F8F8FF;
+}
+
+.div-background{
+	background-color: white;
+}

@@ -1,0 +1,342 @@
+body{
+	
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.7;
+	color: #777777;
+	padding: 30px;
+	background-image:  url("soure/image/slide/banner6.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 95vh;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    position: relative;
+    
+
+}
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+.container {
+	width: 400px;
+	
+	margin: auto auto;
+
+}
+
+.bmenu{
+	/*border:3px solid #73AD21;*/
+    padding: 0px;
+    margin: 0 0 5px 0;
+    position: relative;
+
+}
+
+.bmenu li{
+	/*border:3px solid #73AD21;*/
+    font-size: 50px;
+    display: block;
+    text-align: center;
+}
+
+.menu-type {
+    list-style: none;
+    margin-bottom: 60px;
+}
+
+.menu-type li {
+    display: inline-block;
+}
+
+.menu-type li a {
+    background-color: wheat;
+    padding: 4px 8px;
+    color: #4E4E4E;
+    border-radius: 4px;
+}
+/*kiểu 1*/
+..bmenu li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 5px #fff;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.bmenu:hover li a{
+    text-shadow: 0px 0px 5px #0d1a3a;
+}
+.bmenu li a:hover{
+    color: #fff;
+    text-shadow: 0px 0px 1px #fff;
+    padding-left: 10px;
+}
+
+/*kiểu 2*/
+.bmenu li a {
+	/*border:3px solid #73AD21;*/
+	display: inline;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 2px rgba(89, 22, 20, 0.3);
+	color: #581514;
+	padding: 5px 20px;
+	margin: 2px;
+	background: rgba(255, 255, 255, 0.2);
+	letter-spacing: 1px;
+	-webkit-transform: skew(-12deg);
+	-moz-transform: skew(-12deg);
+	-o-transform: skew(-12deg);
+	-ms-transform: skew(-12deg);
+	transform: skew(-12deg);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+}
+
+.bmenu:hover li a {
+	color: transparent;
+	text-shadow: 0px 0px 10px #fff;
+	background: rgba(88, 22, 22, 0.2);
+	-webkit-transform: skew(0deg);
+	-moz-transform: skew(0deg);
+	-o-transform: skew(0deg);
+	-ms-transform: skew(0deg);
+	transform: skew(0deg);
+}
+
+.bmenu li a:hover {
+	background: #E8E8E8;
+	text-shadow: 1px 1px 10px rgba(89, 22, 20, 0.6);
+	color: #581514;
+}
+
+/*Kiểu 3*/
+/*.bmenu li a {
+	white-space: nowrap;
+	color: transparent;
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 0px 0px 6px #fff;
+	letter-spacing: 1px;
+	-moz-transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	-o-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+	-webkit-transition: all 0.6s linear;
+	-moz-transition: all 0.6s linear;
+	-o-transition: all 0.6s linear;
+	-ms-transition: all 0.6s linear;
+	transition: all 0.6s linear;
+}
+
+.bmenu:hover li a {
+	text-shadow: 0px 0px 15px #fff;
+}
+
+.bmenu li a:hover {
+	text-shadow: 0px 0px 1px #fff;
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}*/
+/*Kiểu 4*/
+/*
+.bmenu li a {
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 2px #eeb213;
+	color: #eeb213;
+	padding: 5px 20px;
+	margin: 2px;
+	background: rgba(0, 0, 0, 0.7);
+	letter-spacing: 1px;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+.bmenu:hover li a {
+	text-shadow: 0px 0px 10px #eeb213;
+	color: transparent;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.bmenu li a:hover {
+	background: rgba(0, 0, 0, 1.0);
+	text-shadow: 0px 0px 1px #eeb213;
+}*/
+
+/*kiểu 5*/
+/*.bmenu li a {
+	color: transparent;
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 4px #fff;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.bmenu:hover li a {
+	text-shadow: 0px 0px 6px #fff;
+}
+
+.bmenu li a:hover {
+	color: #fff;
+	text-shadow: 0px 0px 1px #fff;
+	padding-left: 10px;
+}*/
+
+/*kiểu 6*/
+/*.bmenu li a {
+	white-space: nowrap;
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 2px rgba(71, 80, 23, 0.3);
+	color: #fff;
+	padding: 5px 20px;
+	margin: 2px;
+	background: rgba(255, 255, 255, 0.2);
+	letter-spacing: 1px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.bmenu li:first-child a {
+	-webkit-border-radius: 15px 15px 0px 0px;
+	-moz-border-radius: 15px 15px 0px 0px;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.bmenu li:last-child a {
+	-webkit-border-radius: 0px 0px 15px 15px;
+	-moz-border-radius: 0px 0px 15px 15px;
+	border-radius: 0px 0px 15px 15px;
+}
+
+.bmenu:hover li a {
+	text-shadow: 0px 0px 10px #fff;
+	color: transparent;
+}
+
+.bmenu li a:hover {
+	background: transparent;
+	text-shadow: 1px 1px 10px rgba(71, 80, 23, 0.6);
+	color: #c4d85a;
+}*/
+
+/*kiểu 7*/
+/*.bmenu {
+	padding: 50px 0px;
+	margin: 0 auto;
+	position: relative;
+	background: rgba(0, 0, 0, 0.7);
+	width: 500px;
+	height: 400px;
+	-webkit-border-radius: 250px;
+	-moz-border-radius: 250px;
+	border-radius: 250px;
+	-webkit-transition: background-color 0.5s ease-in-out;
+	-moz-transition: background-color 0.5s ease-in-out;
+	-o-transition: background-color 0.5s ease-in-out;
+	-ms-transition: background-color 0.5s ease-in-out;
+	transition: background-color 0.5s ease-in-out;
+}
+
+.bmenu:hover {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.bmenu li {
+	font-size: 40px;
+	display: block;
+	line-height: 66px;
+}
+
+.bmenu li a {
+	white-space: nowrap;
+	color: transparent;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 3px #fff;
+	letter-spacing: 1px;
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+
+.bmenu:hover li a {
+	text-shadow: 0px 0px 10px #fff;
+}
+
+.bmenu li a:hover {
+	text-shadow: none;
+	color: #fff;
+	background: rgba(129, 6, 29, 0.8);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}*/
+
+
+
+
+/*thuộc tính Position và statis*/
+#first{
+	background-color: red;
+	position: static;
+}  
+
+#second{
+	background-color: blue;
+	position: relative;
+
+}
+
+#third{
+	background-color: green;
+	position: static;
+}
+
+
+
+
+
+
+
